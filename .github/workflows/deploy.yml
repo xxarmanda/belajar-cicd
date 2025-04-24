@@ -27,7 +27,7 @@ jobs:
               mkdir -p /var/www/html/cicd/2305088
             fi
 
-            cd /var/www/html/cicd/nim_kalian
+            cd /var/www/html/cicd/2305088
 
             if [ ! -d ".git" ]; then
               git clone https://github.com/${{ github.repository }}.git .
